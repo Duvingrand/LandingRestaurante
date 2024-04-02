@@ -1,0 +1,118 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+/* Configuracion del header */
+* {
+    padding: 0;
+    margin: 0
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    color: aliceblue;
+}
+
+.Logo {
+    height: 100px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+header {
+    background-image: url("https://tofuu.getjusto.com/orioneat-local/resized2/wgrrKYgQ9HjYpos3k-x-1600.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    padding-bottom: 50%;
+    justify-content: space-between;
+}
+
+/* configuración redes sociales flotantes */
+.redes-sociales {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+
+.redes-sociales .bi {
+    font-size: 40px;
+    background-color: orange;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+/* configuracion de las muestras de comida */
+
+.titulo-todos {
+    text-align: center;
+}
+
+.muestras-comida {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.card-muestras {
+    text-align: center;
+}
+
+.card-muestras button {
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+}
+
+
+.card-muestras img {
+    height: 250px;
+}
+
+.card-muestras h3 {
+    border: 2px solid black;
+    margin: 0px 40px 0px 40px;
+    padding: 6px;
+}
+
+/* configuracion del video de pizza */
+
+.pizzas {
+    position: relative;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.pizzas video{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    
+}
+
+.contenedor-pizza{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: aliceblue;
+    font-size: 100px;
+}
+
+.contenedor-pizza:hover{
+    font-size: 150px;
+}
