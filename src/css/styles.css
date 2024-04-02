@@ -99,8 +99,9 @@ header {
 
 .pizzas video{
     width: 100%;
-    height: 300px;
-    object-fit: cover;
+    height: 400px;
+    object-fit:cover;
+    position: relative;
     
 }
 
@@ -113,6 +114,3 @@ header {
     font-size: 100px;
 }
 
-.contenedor-pizza:hover{
-    font-size: 150px;
-}
