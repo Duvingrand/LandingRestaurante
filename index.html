@@ -23,24 +23,30 @@
 
 <body>
     <header>
+
+        <!-- barra de navegación -->
+        <section class="fondo-nav"></section>
         <nav>
             <img class="Logo" src="https://cdn-icons-png.flaticon.com/512/6045/6045709.png"
                 alt="Logo Riwi Bella Italia">
             <ul>
-                <li>Mapa</li>
-                <li>formulario de contacto</li>
-                <li>video</li>
-                <li>pedidos</li>
+                <li><a href="./src/pages/mapa.html">Mapa</a></li>
+                <li><a href="./src/pages/opinion.html">formulario de contacto</a></li>
+                <li><a href="#video">video</a></li>
+                <li><a href="./src/pages/reservar.html">pedidos</a></li>
             </ul>
         </nav>
+
+        <!-- botones de redes sociales flotantes -->
         <section class="redes-sociales">
-            <i class="bi bi-instagram"></i>
-            <i class="bi bi-twitter"></i>
-            <i class="bi bi-facebook"></i>
-            <i class="bi bi-whatsapp"></i>
+            <a href="http://instagram.com"><i class="bi bi-instagram"></i></a>
+            <a href="http://x.com"><i class="bi bi-twitter"></i></a>
+            <a href="http://facebook.com"><i class="bi bi-facebook"></i></a>
+            <a href="http://whatsapp.com"><i class="bi bi-whatsapp"></i></a>
         </section>
     </header>
     <main>
+        <!-- seccion de comidas -->
         <h2 class="titulo-todos">Comida Italiana Para ¡Todos!</h2>
         <section class="muestras-comida">
             <article class="card-muestras">
@@ -79,7 +85,9 @@
                 <button>VER PRODUCTO <i class="bi bi-arrow-right"></i></button>
             </article>
         </section>
-        <section class="pizzas">
+
+        <!-- video de la pizza -->
+        <section class="pizzas" id="video">
             <video autoplay muted loop>
                 <source src="./public/videos/pizzavideo.mp4" type="video/mp4">
             </video>
@@ -89,18 +97,18 @@
     </main>
     <footer>
         <img class="Logo" src="https://cdn-icons-png.flaticon.com/512/6045/6045709.png" alt="Logo Riwi Bella Italia">
-        <ul>
+        <ul class="contactanos">
             <h2>Contactanos!</h2>
-            <li>Reservar mesa</li>
-            <li>danos tu opinion!</li>
-            <li>Trabaja con nosotros!</li>
+            <li><a href="./src/pages/reservar.html">Reservar mesa</a></li>
+            <li><a href="./src/pages/opinion.html">danos tu opinion!</a></li>
+            <li><a href="./src/pages/solicitudtrabajo.html">Trabaja con nosotros!</a></li>
         </ul>
-        <ul>
+        <ul class="Redes-footer">
             <h2>Redes Sociales</h2>
-            <li>Instagram</li>
-            <li>Twitter</li>
-            <li>Facebook</li>
-            <li>Whatsapp</li>
+            <li><a href="">Instagram</a></li>
+            <li><a href="">Twitter</a></li>
+            <li><a href="">Facebook</a></li>
+            <li><a href="">Whatsapp</a></li>
         </ul>
     </footer>
 </body>
