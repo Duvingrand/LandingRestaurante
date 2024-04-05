@@ -1,0 +1,10 @@
+@import url(/src/css/styles.css);
+@import url(/src/css/opinion.css);
+
+main{
+    height: 950px;
+}
+
+.mapa {
+    padding-top: 120px;
+}
