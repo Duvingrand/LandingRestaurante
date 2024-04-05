@@ -9,7 +9,7 @@
 
 nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100%;
     color: aliceblue;
     position: fixed;
@@ -58,7 +58,7 @@ nav a:hover {
     transition: 0.4s;
 }
 
-header {
+header .under{
     background-image: url("https://tofuu.getjusto.com/orioneat-local/resized2/wgrrKYgQ9HjYpos3k-x-1600.webp");
     background-size: cover;
     background-repeat: no-repeat;
